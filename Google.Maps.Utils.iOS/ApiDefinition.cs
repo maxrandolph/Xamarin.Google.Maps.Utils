@@ -313,7 +313,7 @@ namespace Google.Maps.Utils
     // @protocol GMUGeometryContainer <NSObject>
     [Protocol,Model]
     [BaseType(typeof(NSObject))]
-    interface GMUGeometryContainer
+    interface GMUGeometryContainer : IGMUGeometryContainer
     {
         // @required @property (readonly, nonatomic) id<GMUGeometry> _Nonnull geometry;
         [Abstract]
